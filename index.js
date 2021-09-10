@@ -7,6 +7,28 @@ const story1 = document.getElementById('story1')
 const story2 = document.getElementById('story2')
 const nameChange = document.getElementById('name')
 
+//Skills
+const htmlSkill = document.getElementById('html')
+const cssSkill = document.getElementById('css')
+const jsSkill = document.getElementById('javascript')
+const postgreSkill = document.getElementById('postgres')
+const gitSkill = document.getElementById('git')
+const nodeSkill = document.getElementById('node')
+
+const contact = document.getElementById('contact')
+const headerTwo = document.getElementById('header2')
+const navTwo = document.getElementById('nav2')
+
+
+contact.addEventListener('click', (e) => {
+    e.preventDefault()
+    headerTwo.style.display = 'block'
+})
+
+document.getElementById('project-box-list').addEventListener('mouseover', () => {
+    headerTwo.style.display = 'none'
+})
+
 
 //Project Lists
 const projectLinkOne = document.getElementById('project-one')
@@ -23,9 +45,12 @@ const backgroundFour = document.getElementById('background4')
 
 
 
+
+
 //Project Link 1
 projectLinkOne.addEventListener('mouseover', () => {
     backgroundOne.classList.add('new-background1')
+
 })
 
 projectLinkOne.addEventListener('mouseout', () => {
@@ -103,4 +128,57 @@ sideBoxTwo.addEventListener('mouseout', () => {
     sideBoxP2.style.display = 'none'
     story2.style.display = 'flex'
 })
+
+
+
+//Skill mouseovers
+htmlSkill.addEventListener('mouseover', () => {
+    htmlSkill.textContent = 'HTML'
+})
+
+htmlSkill.addEventListener('mouseout', () => {
+    htmlSkill.textContent = 'HT'
+})
+
+cssSkill.addEventListener('mouseover', () => {
+    cssSkill.textContent = 'CSS'
+})
+
+cssSkill.addEventListener('mouseout', () => {
+    cssSkill.textContent = 'CS'
+})
+
+jsSkill.addEventListener('mouseover', () => {
+    jsSkill.textContent = 'JavaScript'
+})
+
+jsSkill.addEventListener('mouseout', () => {
+    jsSkill.textContent = 'JS'
+})
+
+postgreSkill.addEventListener('mouseover', () => {
+    postgreSkill.textContent = 'Postgres'
+})
+
+postgreSkill.addEventListener('mouseout', () => {
+    postgreSkill.textContent = 'PG'
+})
+
+gitSkill.addEventListener('mouseover', () => {
+    gitSkill.textContent = 'Git'
+})
+
+gitSkill.addEventListener('mouseout', () => {
+    gitSkill.textContent = 'GT'
+})
+
+nodeSkill.addEventListener('mouseover', () => {
+    nodeSkill.textContent = 'Node'
+})
+
+nodeSkill.addEventListener('mouseout', () => {
+    nodeSkill.textContent = 'ND'
+})
+
+
 

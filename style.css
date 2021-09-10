@@ -58,6 +58,33 @@ header {
     animation: fadein 1.5s ease-in-out;
 }
 
+.header2 {
+    display: none;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid black;
+    animation: fadein 1.5s ease-in-out;
+
+}
+
+.nav2 {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.nav2 li {
+    margin-top: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav2 li:hover {
+    font-size: 20px;
+}
+
 .middle-line {
     height: 100%;
     width: 50%;
@@ -174,7 +201,6 @@ header {
     width: 50%;
     border-right: 1px solid black;
     border-bottom: 1px solid black;
-    /* background-color: rgba(0, 0, 0, 0.653); */
     display: flex;
     justify-content: center;
     align-items: center;
