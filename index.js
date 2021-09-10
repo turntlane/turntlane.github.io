@@ -140,50 +140,62 @@ sideBoxTwo.addEventListener('mouseout', () => {
 
 //Skill mouseovers
 htmlSkill.addEventListener('mouseover', () => {
+    htmlSkill.classList.add('skills-background-new')
     htmlSkill.textContent = 'HTML'
 })
 
 htmlSkill.addEventListener('mouseout', () => {
+    htmlSkill.classList.remove('skills-background-new')
     htmlSkill.textContent = 'HT'
 })
 
 cssSkill.addEventListener('mouseover', () => {
+    cssSkill.classList.add('skills-background-new')
     cssSkill.textContent = 'CSS'
 })
 
 cssSkill.addEventListener('mouseout', () => {
+    cssSkill.classList.remove('skills-background-new')
     cssSkill.textContent = 'CS'
 })
 
 jsSkill.addEventListener('mouseover', () => {
+    jsSkill.classList.add('skills-background-new')
     jsSkill.textContent = 'JavaScript'
 })
 
 jsSkill.addEventListener('mouseout', () => {
+    jsSkill.classList.remove('skills-background-new')
     jsSkill.textContent = 'JS'
 })
 
 postgreSkill.addEventListener('mouseover', () => {
+    postgreSkill.classList.add('skills-background-new')
     postgreSkill.textContent = 'Postgres'
 })
 
 postgreSkill.addEventListener('mouseout', () => {
+    postgreSkill.classList.remove('skills-background-new')
     postgreSkill.textContent = 'PG'
 })
 
 gitSkill.addEventListener('mouseover', () => {
+    gitSkill.classList.add('skills-background-new')
     gitSkill.textContent = 'Git'
 })
 
 gitSkill.addEventListener('mouseout', () => {
+    gitSkill.classList.remove('skills-background-new')
     gitSkill.textContent = 'GT'
 })
 
 nodeSkill.addEventListener('mouseover', () => {
+    nodeSkill.classList.add('skills-background-new')
     nodeSkill.textContent = 'Node'
 })
 
 nodeSkill.addEventListener('mouseout', () => {
+    nodeSkill.classList.remove('skills-background-new')
     nodeSkill.textContent = 'ND'
 })
 
