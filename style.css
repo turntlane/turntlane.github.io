@@ -101,7 +101,9 @@ header {
     border: 1px solid black;
     padding: 1% 2%;
     animation: fadein 1s ease-in-out;
+
 }
+
 
 .nav {
     width: 50%;
@@ -276,7 +278,8 @@ header {
 }
 
 .logo-container {
-    height: 70%;
+    /* height: 70%; */
+    margin-top: 70px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -290,12 +293,13 @@ header {
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    padding-bottom: 40px;
+    /* padding-bottom: 40px; */
 }
 
 .logo {
-    font-size: 30px;
-    border: 1px solid black;
+    /* font-size: 30px; */
+    width: 20%;
+    height: 5%;
     padding: 5%;
 }
 
