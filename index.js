@@ -48,40 +48,47 @@ const backgroundFour = document.getElementById('background4')
 
 
 //Project Link 1
-projectLinkOne.addEventListener('mouseover', () => {
-    backgroundOne.classList.add('new-background1')
+// projectLinkOne.addEventListener('mouseover', () => {
+//     backgroundOne.classList.add('new-background1')
 
-})
+// })
 
-projectLinkOne.addEventListener('mouseout', () => {
-    backgroundOne.classList.remove('new-background1')
-})
+// projectLinkOne.addEventListener('mouseout', () => {
+//     backgroundOne.classList.remove('new-background1')
+// })
 
 //Project Link 2
 projectLinkTwo.addEventListener('mouseover', () => {
+    backgroundOne.style.display = 'none'
     backgroundTwo.classList.add('new-background2')
 })
 
 projectLinkTwo.addEventListener('mouseout', () => {
     backgroundTwo.classList.remove('new-background2')
+    backgroundOne.style.display = 'flex'
+
 })
 
 //Project Link 3
 projectLinkThree.addEventListener('mouseover', () => {
+    backgroundOne.style.display = 'none'
     backgroundThree.classList.add('new-background3')
 })
 
 projectLinkThree.addEventListener('mouseout', () => {
     backgroundThree.classList.remove('new-background3')
+    backgroundOne.style.display = 'flex'
 })
 
 //Project Link 4
 projectLinkFour.addEventListener('mouseover', () => {
+    backgroundOne.style.display = 'none'
     backgroundFour.classList.add('new-background4')
 })
 
 projectLinkFour.addEventListener('mouseout', () => {
     backgroundFour.classList.remove('new-background4')
+    backgroundOne.style.display = 'flex'
 })
 
 
